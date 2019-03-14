@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: kinesis-client
+
+kinesis:
+  region: eu-west-1
+  stream: ${KINESIS_STREAM}
+  accessKey: ${KINESIS_ACCESS_KEY}
+  secretKey: ${KINESIS_SECRET_KEY}
